@@ -18,7 +18,7 @@
 
 #### Known problems:
 
-  - 
+  - using the up button while previewing a file crashes the program, deselecting the file by clicking elsewhere in the window and then using the button fixes this issue
   - rarely crashes because of "file not found" or "access denied", reason unknown
   - previewing images is very wonky and displays only a small part of the image
   - previewing unsupported files results in nonsensical output in the preview
