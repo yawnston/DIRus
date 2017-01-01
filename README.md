@@ -18,6 +18,7 @@
 
 #### Known problems:
 
+  - 
   - rarely crashes because of "file not found" or "access denied", reason unknown
   - previewing images is very wonky and displays only a small part of the image
   - previewing unsupported files results in nonsensical output in the preview
