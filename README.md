@@ -30,3 +30,6 @@
   - two browsing windows
   - editing files
   - large preview window to allow preview of the whole image/file
+
+
+### Made by Daniel Crha
