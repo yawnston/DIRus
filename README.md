@@ -9,7 +9,7 @@
   - navigating with:
     * address bar for typing known locations
     * editing address directly in the addr bar
-    * clicking through folders
+    * clicking through folders, full keyboard support
     * "UP" button, which takes you up one level (NOTE: this does nothing if you are in a drive directly, such as C:\)
   - file previews
     * if an image is detected, it displays a small portion of the image
@@ -18,11 +18,11 @@
 
 #### Known problems:
 
-  - using the up button while previewing a file crashes the program, deselecting the file by clicking elsewhere in the window and then using the button fixes this issue
-  - rarely crashes because of "file not found" or "access denied", reason unknown
+  - FIXED - using the up button while previewing a file crashes the program, deselecting the file by clicking elsewhere in the window and then using the button fixes this issue
+  - FIXED - rarely crashes because of "file not found" or "access denied", reason unknown
   - previewing images is very wonky and displays only a small part of the image
   - previewing unsupported files results in nonsensical output in the preview
-  - the Enter key doesn't work when navigating directories (reason known, will fix)
+  - FIXED - the Enter key doesn't work when navigating directories (reason known, will fix)
   
 #### Planned features:
 
