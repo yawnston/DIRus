@@ -31,6 +31,8 @@ type
     procedure Button1Click(Sender: TObject);
     procedure goButtonClick(Sender: TObject);
     procedure listBoxDblClick(Sender: TObject);
+    procedure listBoxKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState
+      );
     procedure listBoxSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure upButtonClick(Sender: TObject);
@@ -99,6 +101,15 @@ begin
          listDirectory(addsep(addSep(currentDirectory)+listBox.selected.Caption));
 
     end;
+end;
+
+procedure TForm1.listBoxKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if(listBox.ItemIndex=-1) then exit;
+  if(Key=$0D) then begin
+       Form1.listBoxDblClick(nil);
+  end;
 end;
 
 procedure TForm1.listBoxSelectItem(Sender: TObject; Item: TListItem;
